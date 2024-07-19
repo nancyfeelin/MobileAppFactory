@@ -1,0 +1,42 @@
+MobileAppFactory/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
+│   └── workflows/
+│       └── ci.yml
+├── app/
+│   ├── android/
+│   │   ├── app/
+│   │   │   ├── src/
+│   │   │   │   └── main/
+│   │   │   │       ├── AndroidManifest.xml
+│   │   │   │       └── java/
+│   │   │   │           └── com/
+│   │   │   │               └── example/
+│   │   │   │                   └── MainActivity.java
+│   │   ├── build.gradle
+│   │   └── settings.gradle
+│   └── ios/
+│       ├── MobileAppFactory.xcodeproj/
+│       ├── MobileAppFactory/
+│       │   └── AppDelegate.swift
+│       └── Info.plist
+├── assets/
+│   ├── images/
+│   └── icons/
+├── tests/
+│   ├── android/
+│   │   ├── src/
+│   │   │   └── test/
+│   │   │       └── java/
+│   │   │           └── com/
+│   │   │               └── example/
+│   │   │                   └── MainActivityTest.java
+│   └── ios/
+│       └── Tests/
+│           └── AppDelegateTests.swift
+├── .gitignore
+├── LICENSE
+├── README.md
+└── setup.py
